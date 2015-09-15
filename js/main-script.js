@@ -16,7 +16,7 @@ $(document).ready(function(){
 						$('#portrait-image').attr('src',_images[0]).data('current','1');
 					break;
 				}
-				$(this).fadeIn();
+				$(this).fadeIn(800);
 		});	
-	}, 6000);
+	}, 7000);
 })
