@@ -57,49 +57,7 @@ h6 {
   padding-bottom: 0px;
 
 }
-
-.sub-title {
-  font-family: 'Oswald';
-  font-size: 18px;
-  font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #4ac3bf;
-  position: relative;
-  margin: 0px;
-  margin-bottom: 40px;
-}
-
-.sub-title::after {
-  content: '';
-  position: absolute;
-  height: 2px;
-  width: 75px;
-  left: 0px;
-  bottom: -18px;
-  background-color: #333333;
-}
-
-.list-details {
-  list-style-type: none;
-  padding-left: 0px;
-  font-size: 12px;
-  text-transform: uppercase;
-}
-
-.list-details strong,
-.list-details b {
-  color: #333333;
-}
-
-[data-bg-image] {
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-}
-
-.title-lg,
-.title-md {
+.title-lg {
   font-family: 'Oswald';
   font-size: 32px;
   font-weight: normal;
@@ -113,15 +71,12 @@ h6 {
 	padding-top:10px;
 	margin-top:25px;
 }
-.title-md {
-  font-size: 26px;
-}
-
-.title-lgx {
+.title-main {
   font-family: 'Oswald';
   font-size: 70px;
   font-weight: bold;
   letter-spacing: 1px;
+  color: #a51c30;
 }
 
 .title-light {
@@ -129,26 +84,6 @@ h6 {
   font-size: 30px;
   font-weight: 100;
   letter-spacing: 1px;
-}
-
-ul.check-list {
-  list-style-type: none;
-}
-
-ul.check-list li {
-  font-size: 12px;
-  text-transform: uppercase;
-  font-family: 'Lato';
-  font-weight: normal;
-  letter-spacing: 1px;
-}
-
-ul.check-list li::before {
-  content: "\f00c";
-  font-family: FontAwesome;
-  margin-left: -20px;
-  margin-right: 12px;
-  font-size: 11px;
 }
 
 ul.socials {
@@ -185,10 +120,6 @@ ul.socials li a:hover {
   background-color: #4ac3bf;
 }
 
-.text-brand {
-  color: #a51c30;
-}
-
 .project-title{
 	padding:10px;
 	font-size:16px;
@@ -200,37 +131,39 @@ ul.socials li a:hover {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-	.title-lgx {
-	font-size: 50px;
+	.title-main {
+		font-size: 50px;
 	}
 
 	.title-light {
-	font-size: 24px;
+		font-size: 24px;
 	}
 
 	.title-lg {
-	font-size: 24px;
+		font-size: 24px;
 	}
 	.my_btn{
 		display:block;
+		text-align:center;
 	}
 }
 
 @media screen and (max-width: 767px) {
 
-	.title-lgx {
-	font-size: 50px;
+	.title-main {
+		font-size: 50px;
 	}
 
 	.title-light {
-	font-size: 24px;
+		font-size: 24px;
 	}
 
 	.title-lg {
-	font-size: 24px;
+		font-size: 24px;
 	}
 	.my_btn{
 		display:block;
+		text-align:center;
 	}
 
 }
