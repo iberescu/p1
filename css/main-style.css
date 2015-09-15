@@ -45,6 +45,11 @@ button:hover{
   color: #fff;
 }
 
+.btn:focus,
+button:focus{
+  color: #fff;
+}
+
 .main {
   padding-top: 90px;
   padding-bottom: 90px;
