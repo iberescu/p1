@@ -4,7 +4,7 @@
 <http://p1.iberescu.me/>
 
 ## Description
-Project 1
+Project 1 - Portfolio page 
 
 ## Details for teaching team
 No login required.
