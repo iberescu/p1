@@ -13,3 +13,4 @@ No login required.
 * Bootstrap: http://getbootstrap.com/
 * Font Awesome: https://fortawesome.github.io/Font-Awesome/
 * Google Fonts(Leto, Oswald, Lora): http://fonts.googleapis.com/
+* Favicon: http://www.harvard.edu/
